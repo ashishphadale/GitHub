@@ -1,0 +1,20 @@
+<ion-content ng-controller="loginCtrl" class="background">
+	<div class="bs_logoContainer">
+		<div class="bs_logo"><img src="img/bridgestone_logo.png"></div>
+	</div>
+		<form>
+			<div class="form">
+				<label class="item item-input">
+  					<span class="input-label">Username</span>
+  					<input type="text" placeholder="admin/member" ng-model="input.firstName">
+				</label>
+				<label class="item item-input">
+  					<span class="input-label">Password</span>
+  					<input type="text" placeholder="**admin***member**" ng-model="input.lastName">
+				</label>
+				<label class="item">
+					<button class="button button-assertive button-block" ng-click="login()">Log In</button>
+				</label>
+			</div>
+		</form>
+</ion-content>

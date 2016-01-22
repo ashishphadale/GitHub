@@ -1,0 +1,22 @@
+<ion-header-bar align-title="left" class="bar-positive">
+	  <h1 class="title">Vehicle Register</h1>
+</ion-header-bar>
+<ion-content ng-controller="MainCtrl">
+	<div></div>
+		<form>
+			<div class="list">
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">Registration Number</span>
+			    <input type="text" placeholder="1234" pattern="[0-9]">
+			  </label>
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">Kilometers</span>
+			    <input type="text" placeholder="1234" pattern="[0-9]">
+			  </label>
+			  
+	        <label class="item" ng-controller="submitCtrl">
+				<button class="button button-assertive button-block" ng-click="submitVehicle()">Submit</button>
+			</label>
+			</div>
+		</form>
+</ion-content>

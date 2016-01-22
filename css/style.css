@@ -1,0 +1,8 @@
+.bridge_logo{background-color: #ccc; width:140px; height:200px; margin: 0 auto;}
+.background{
+	background:url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bs_logo{margin-top: 10%; margin-bottom:  20px}
+.bs_logoContainer{text-align: center;}
